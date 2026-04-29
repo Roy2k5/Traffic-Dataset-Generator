@@ -1,0 +1,14 @@
+=== UNet Segmentation Test Results ===
+Dataset: 200 images (index 1000-1199)
+Checkpoint: E:\BTL\Antigravity\CG\btl2\src\checkpoint\unet\best.pth
+
+Per-class IoU:
+  background  : 99.47%
+  car         : 90.84%
+  tree        : 92.36%
+  lamppost    : 99.81%
+
+Mean IoU      : 95.62%
+Pixel Accuracy: 99.60%
+
+Inference time: 77.8 ms/image

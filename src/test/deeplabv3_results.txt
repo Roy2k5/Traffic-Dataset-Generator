@@ -1,0 +1,14 @@
+=== DeepLabV3 Segmentation Test Results ===
+Dataset: 200 images (index 1000-1199)
+Checkpoint: E:\BTL\Antigravity\CG\btl2\src\checkpoint\deeplabv3\best.pth
+
+Per-class IoU:
+  background  : 91.22%
+  car         : 63.98%
+  tree        : 0.60%
+  lamppost    : 96.55%
+
+Mean IoU      : 63.09%
+Pixel Accuracy: 96.76%
+
+Inference time: 271.0 ms/image

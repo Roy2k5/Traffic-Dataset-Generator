@@ -1,0 +1,11 @@
+output/
+__pycache__/
+runs/
+*.md
+!README.md
+
+*.pth
+!best.pth
+logs/
+venv/
+test.ipynb
