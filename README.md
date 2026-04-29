@@ -115,5 +115,5 @@ The system provides a built-in pipeline to evaluate the quality of the generated
 
 ## LICENSE
 
-The project is distributed under the **MIT License**.
+The project is distributed under the ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg).
 
