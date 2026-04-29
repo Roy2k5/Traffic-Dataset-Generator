@@ -3,6 +3,22 @@
 
 This project builds an automatic synthetic data generation system. The system constructs a 3D scene (including buildings, vehicles, trees, and lampposts) using OpenGL, simulating realistic vehicle movement animations. Through this, the system renders various types of data including RGB images, Depth maps, and Instance Segmentation masks. From the mask, the system automatically extracts bounding boxes and exports labels in COCO and YOLO formats accurately (pixel-perfect), saving manual labeling time when preparing training data for AI models. The system also provides an intuitive user interface built with PyQt6 to directly monitor the inference and rendering process.
 
+## Table of Contents
+- [Project Directory Structure](#project-directory-structure)
+- [How to Use](#how-to-use)
+- [Data Results](#data-results)
+  - [Origin Image](#origin-image)
+  - [Depth Image](#depth-image)
+  - [Segmentation Image](#segmentation-image)
+  - [Extracted YOLO Label Sample](#extracted-yolo-label-sample)
+- [Deep Learning Model Input Results](#deep-learning-model-input-results-srctestresult)
+  - [Semantic Segmentation Results Comparison](#semantic-segmentation-results-comparison)
+  - [Object Detection Results Comparison](#object-detection-results-comparison)
+  - [YOLOv5](#yolov5)
+  - [Unet](#unet)
+  - [DeepLabV3](#deeplabv3)
+- [LICENSE](#license)
+
 ## Project Directory Structure
 
 ```text
